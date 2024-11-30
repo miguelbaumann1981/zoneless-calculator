@@ -53,7 +53,7 @@ export class CalculatorButtonComponent {
     this.isPressed.set(true);
     setTimeout(() => {
         this.isPressed.set(false);
-    }, 1000);
+    }, 100);
   }
 
  

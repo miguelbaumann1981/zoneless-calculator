@@ -33,7 +33,6 @@ export class CalculatorComponent {
   }
 
   handleKeyboardEvent(event: KeyboardEvent) {
-
     const keyEquivalents: Record<string, string> = {
       Escape: 'C',
       Clear: 'C',
@@ -48,7 +47,7 @@ export class CalculatorComponent {
 
     this.calculatorButtons().forEach(button => {
       button.keyboardPressedStyle(keyValue);
-    })
+    });
     
   }
 
